@@ -1,0 +1,14 @@
+.myownCSS{
+  text-align: center;
+  padding: 3em;
+  color: white;
+  background-color: red !important;
+}
+.myText{
+text-decoration: none !important;
+color: black;
+}
+.card:hover{
+    box-shadow: -2px -2px 4px lightgray;
+
+}
