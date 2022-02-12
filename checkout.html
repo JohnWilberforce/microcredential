@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- JOHN WILBERFORCE ACHEAMPONG -->
+    <title>CHECKOUT </title>
+    <!-- JOHN WILBERFORCE ACHEAMPONG -->
+<link rel="stylesheet" href="project2.css">
+  </head>
+  <body>
+  <div class="mydiv">
+
+<h1 class="myh1">ITEMS IN YOUR BAG</h1>
+<br>
+    <h3>ITEM NAME : <span id="item"></span></h3>
+<br>
+    <h3>PRICE : <span id="price"></span></h3>
+    <br>
+
+
+        <form action ="thankyou.html" method="GET" style="text-align:center;">
+          <fieldset style="width:60%;">
+            <p id="item"></p>
+
+            <label for="un">Enter username:<input type="text" name="username" placeholder="Type your name" id="username">
+             </label>
+             <label for="email">Enter email address: <input type="text" name="email"
+                placeholder="Type email"></label>
+                <input type="submit" name="submit" value="SUBMIT ORDER" style="margin-top:2em;" onclick="passvaluess();">
+          </fieldset>
+        </form>
+        <br><br>
+    <a href="index.html" class="anchor">BACK TO HOMEPAGE</a>
+
+    <br><br>
+<hr>
+
+
+</div>
+    <script type="text/javascript">
+      let item = document.querySelector('#item');
+      let price = document.querySelector('#price');
+      item.innerHTML = sessionStorage.getItem('name');
+      price.innerHTML = sessionStorage.getItem('price')
+
+      function passvaluess(){
+        let n = document.querySelector('#username').value;
+        
+        sessionStorage.setItem('name', n);
+        }
+    </script>
+
+  </body>
+</html>

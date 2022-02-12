@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<h1>...Thank you  <span id="name"></span>...</h1>
+
+<script type="text/javascript">
+let name = document.querySelector('#name');
+name.innerHTML = sessionStorage.getItem('name');
+</script>
+
+  </body>
+  <style media="screen">
+  h1{
+    color: #aca542;;
+    text-align: center;
+  }
+
+  </style>
+  </html>

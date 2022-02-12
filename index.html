@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JOHN WILBERFORCE ACHEAMPONG -->
+    <title>SLEEKCARE HOMEPAGE</title>
+    <!-- JOHN WILBERFORCE ACHEAMPONG -->
+    <link rel="stylesheet" href="project2.css">
+  </head>
+  <body>
+    <!-- <div class="board"> -->
+
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#divider2">Products</a>
+      <a href="#footer">Contact</a>
+    </div>
+
+    <div class="header">
+      <img src="images/globe.png" alt="company logo" id="logo">
+      <div class="head">
+        <h2 id="heading">Sleekcare Medical Supplies</h2>
+        <p>"Think quality"</p>
+        </div>
+    </div>
+
+    <div class="divider">
+
+
+    <div class="slideshow">
+      <div class="slide-wrapper">
+        <div class="slide">
+          <p class="free">FREE shipping and Handling for Orders above $1000</p>
+
+        </div>
+        <div class="slide">
+          <div class="slim"><img src="images/sli.jpg" alt=""></div>
+          <p><b>SHIN NIPPON</b><br><br><font size="4.5em" color="red">$200</font> OFF $2000 order and <font size="4.5em" color="red">$100</font> OFF $1000 order.<br> Code: BONUS</p>
+        </div>
+        <div class="slide">
+          <div class="inn"><img src="images/autorefractor.jpeg" alt=""> </div>
+          <p class="pInn">Today only!<br><br><font color="purple" size="5em"> $1000</font><br><br> TOPCON KR7000 AUTOREFRACTOR </p>
+         </div>
+    </div>
+  </div>
+
+      <div class="picture">
+        <img src="images/labom.jpg" alt="a picture of a slitlamp">
+        <div class="top">
+          <p>This is a highly durable Ophthalmic slitlamp with Imaging<br>
+          captures anterior segment of the eye. This set up comes with a<br>
+        motorized table and an applanation tonometer eye pressure measurement </p>
+        </div>
+      </div>
+
+      <div class="picture">
+        <img src="images/labo.jpg" alt="a picture of an operating microscope">
+        <p class="me">This is PRIMA OPH Surgical microscope. <br>For precision,
+        accurate and user-friendly<br> surgical procedures with best results</p>
+      </div>
+
+</div>
+
+  <div class="divider2" id="divider2">
+    <h6>Sleekcare Medical Supplies</h6>
+
+    <div class="box" id="return1">
+      <div class="innerbox1">
+        <div class="whi">
+        <img src="images/keelerOph.jpg" alt="picture of an ophthalmoscope" class="myKeeler">
+
+        <p class="one">OPHTHALMOSCOPE</p>
+        <p class="two">Led bulb, Rechargeable</p>
+        <p class="three">$400</p>
+        <a href="#modalWindow" class="open">ADD TO BAG</a>
+      </div>
+      </div>
+      <div class="innerbox1">
+        <div class="whi">
+        <img src="images/autorefractor.jpeg" alt="Picture of an autorefractor" class="myAuto">
+        <p class="one">AUTOREFRACTOR</p>
+        <p class="two">State of the art design</p>
+        <p class="three">$2000</p>
+        <a href="#modalWindow1" class="open">ADD TO BAG</a>
+      </div>
+      </div>
+      <div class="innerbox1">
+        <div class="whi">
+        <img src="images/tono.jpg" alt="picture of a tonometer" class="ton">
+        <p class="one">TONOMETER</p>
+        <p class="two">Comfortable</p>
+        <p class="three">$1500</p>
+        <a href="#modalWindow2" class="open" id="open1">ADD TO BAG</a>
+      </div>
+    </div>
+    </div>
+<br>
+
+    <div class="box1" id="return2">
+      <div class="innerbox2">
+        <div class="whi">
+        <img src="images/stetos.jpg" alt="picture of a stethoscope" class="stet">
+        <p class="four">STETHOSCOPE</p>
+        <p class="five">Automatic and accurate</p>
+        <p class="six">$200</p>
+
+        <a href="#modalWindow4" id="open2">ADD TO BAG</a>
+      </div>
+      </div>
+      <div class="innerbox2">
+        <div class="whi">
+        <img src="images/optopol.jpg" alt="picture of a Visual field machine" class="opto">
+        <p class="four">VISUAL FIELDS</p>
+        <p class="five">State of the art design</p>
+        <p class="six">$9000</p>
+
+        <a href="#modalWindow5">ADD TO BAG</a>
+      </div>
+      </div>
+      <div class="innerbox2">
+        <div class="whi">
+        <img src="images/retCamera.jpg" alt="picture of a retinal camera" class="eyer">
+        <p class="four">FUNDUS CAMERA</p>
+        <p class="five">Precision Imaging</p>
+        <p class="six">$7000</p>
+        <a href="#modalWindow6" id="open3">ADD TO BAG</a>
+      </div>
+      </div>
+    </div>
+    <!-- <a href="#modalWindow" class="open">Click Here</a> -->
+
+      <!-- Modal Window 1 -->
+      <form class="form1" action="checkout.html" method="get">
+       <div class="modalBack" id="modalWindow">
+         <div class="modalFront">
+
+           <a href="#return1" class="close">&#9932;</a>
+           <div class"infoinfo">
+          <div class="imgCont">
+            <img src="images/keelerOph.jpg" alt="keeler ophthalmoscope picture" title="KEELER">
+          </div>
+          <div class="info">
+            <p>KEELER OPHTHALMOSCOPE</p>
+            <p>Led Bulb, Rechargeable</p>
+            <p>$400</p>
+          </div>
+        </div>
+        <div class="bagg">
+          <p>Observe a clear and wide angle view of the fundus of your patients</p>
+<br>
+            <hr color="white";>
+
+            <input type="submit" name="submit_bt" class="add" id="submit_bt"
+            value="ADD TO BAG" onclick="passvalues();">
+        </div>
+
+       </div>
+     </div>
+   </form>
+
+        <!-- Modal Window 2 -->
+              <form class="form1" action="checkout.html" method="get">
+         <div class="modalBack" id="modalWindow1">
+           <div class="modalFront">
+
+             <a href="#return1" class="close">&#9932;</a>
+             <div class"infoinfo">
+            <div class="imgCont">
+              <img src="images/autorefractor.jpeg" alt="AUTOREFRACTOR" title="AUTOREFRACTOR">
+            </div>
+            <div class="info">
+              <p>AUTOREFRACTOR</p>
+              <p>State of the Art Design</p>
+              <p>$2000</p>
+            </div>
+          </div>
+          <div class="bagg">
+            <p>Get to measure the refractive power of your patients <br>
+              with zero subjective modifications</p>
+          <br>
+                <hr color="white";>
+
+                <input type="submit" name="submit_bt" class="add" id="submit_bt1"
+                value="ADD TO BAG" onclick="passvalues1();">
+          </div>
+
+         </div>
+       </div>
+</form>
+          <!-- Modal Window 3 -->
+          <form class="form1" action="checkout.html" method="get">
+
+           <div class="modalBack" id="modalWindow2">
+             <div class="modalFront">
+
+               <a href="#return1" class="close">&#9932;</a>
+               <div class"infoinfo">
+                 <div class="imgCont">
+                   <img src="images/tono.jpg" alt="Hand Held Tonometer" title="Hand Held Tonometer">
+                 </div>
+                 <div class="info">
+                   <p>HANDHELD TONOMETER</p>
+                   <p>Comfortable and Accurate</p>
+                   <p>$1500</p>
+                 </div>
+               </div>
+               <div class="bagg">
+                 <p>Get to measure the intraocular pressure of your patients <br>
+                   painlessly</p>
+    <br>
+                     <hr color="white";>
+
+                     <input type="submit" name="submit_bt" class="add" id="submit_bt2"
+                     value="ADD TO BAG" onclick="passvalues2();">               </div>
+
+              </div>
+            </div>
+          </form>
+<!-- THE OTHER MODALS ROW 2 -->
+<!-- Modal Window 4 -->
+          <form class="form1" action="checkout.html" method="get">
+ <div class="modalBack" id="modalWindow4">
+   <div class="modalFront">
+
+     <a href="#return2" class="close">&#9932;</a>
+     <div class"infoinfo">
+    <div class="imgCont">
+      <img src="images/stetos.jpg" alt="picture of a stethoscope" title="STETHOSCOPE">
+    </div>
+    <div class="info">
+      <p>ELECTRONIC STETHOSCOPE</p>
+      <p>Automatic and Accurate Readings</p>
+      <p>$200</p>
+    </div>
+  </div>
+  <div class="bagg">
+    <p>Automated Systolic heart Rate and Diastolic heart rate, Beats<br>
+      per minute readings</p>
+<br>
+<hr color="white";>
+
+        <input type="submit" name="submit_bt" class="add" id="submit_bt3"
+        value="ADD TO BAG" onclick="passvalues3();">               </div>
+
+  </div>
+
+ </div>
+</div>
+</form>
+
+  <!-- Modal Window 5 -->
+            <form class="form1" action="checkout.html" method="get">
+   <div class="modalBack" id="modalWindow5">
+     <div class="modalFront">
+
+       <a href="#return2" class="close">&#9932;</a>
+       <div class"infoinfo">
+      <div class="imgCont">
+        <img src="images/optopol.jpg" alt="Visual fields" title="Visual fields">
+      </div>
+      <div class="info">
+        <p>VISUAL FIELD MACHINE</p>
+        <p>State of the Art Design</p>
+        <p>$9000</p>
+      </div>
+    </div>
+    <div class="bagg">
+      <p>To aid in the diagnosis of glaucoma, shows accurate visual fields patterns<br>
+      Easy to be used by patients</p>
+        <hr color="white";>
+<br>
+        <input type="submit" name="submit_bt" class="add" id="submit_bt4"
+        value="ADD TO BAG" onclick="passvalues4();">
+    </div>
+
+   </div>
+ </div>
+
+    <!-- Modal Window 6 -->
+                <form class="form1" action="checkout.html" method="get">
+                  <fieldset>
+
+     <div class="modalBack" id="modalWindow6">
+       <div class="modalFront">
+
+         <a href="#return2" class="close">&#9932;</a>
+         <div class"infoinfo">
+           <div class="imgCont">
+             <img src="images/retCamera.jpg" alt="picture of retinal camera" title="RETINAL CAMERA">
+           </div>
+           <div class="info">
+             <p>FUNDUS CAMERA</p>
+             <p>Captures Images with precision</p>
+             <p>$2000</p>
+           </div>
+         </div>
+         <div class="bagg">
+           <p>Seeing is believing, Get an outstanding image of the retina</p>
+             <hr color="white";>
+<br>
+             <input type="submit" name="submit_bt" class="add" id="submit_bt5"
+             value="ADD TO BAG" onclick="passvalues5();">
+         </div>
+
+        </div>
+      </div>
+</div>
+</fieldset>
+</form>
+<div class="footer" id="footer">
+<div class="foot1">
+<div class="foot1a">
+<p>HELP</p>
+<p>Customer Service</p>
+<p>Live Chat</p>
+</div>
+<div class="foot1a">
+  <p>ACCOUNT</p>
+  <p>Your Account</p>
+  <p>Order Status</p>
+</div>
+<div class="foot1a">
+  <p>SUBSCRIBE</p>
+  <p>Email</p>
+  <p>Store Offer and Events</p>
+</div>
+<div class="foot1a">
+  <p>THE MEMBER CARD</p>
+  <p id="pe">Learn More</p>
+  <p>Pay My Bill</p>
+</div>
+<hr>
+</div>
+<div class="foot2">
+  <h5>CONNECT WITH SLEEKCARE MEDICAL SUPPLIES</h5>
+
+<span class="sp"><a href="https://www.pinterest.com/"><img src="images/pinterest-logoo.png" alt=""> </a>
+<a href="https://www.facebook.com/Mr.ThomasOsei/"><img src="images/fb.png" alt=""> </a>
+<a href="https://www.facebook.com/watch/?v=736534406954590"><img src="images/inst.png" alt=""> </a>
+<a href="https://www.facebook.com/watch/?v=465651881196941"><img src="images/twitter.png" alt=""> </a>
+<a href="https://www.youtube.com/"><img src="images/tub.png" alt=""> </a></span>
+<br>
+</div>
+</div>
+<p id="spee">&copy 2022 SLEEKCARE MEDICAL SUPPLIES by John Wilberforce Acheampong. All Rights Reserved</p>
+
+
+
+
+</div>
+<script type="text/javascript" src="project2.js">
+
+</script>
+  </body>
+</html>
